@@ -8,9 +8,9 @@ function coinToss(chance) {
 }
 
 // Draw Guides for a grid
-function drawGuides(cols,rows) {
+function drawGuides(cols,rows,clr = 128) {
     push()
-    stroke(128)
+    stroke(clr)
     let xStep = width / cols
     let yStep = height / rows
     for (let x = 0; x < width; x += xStep) {
