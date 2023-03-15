@@ -52,7 +52,7 @@ function draw() {
     vertex(zero.x, zero.y, -ext, img.width, img.height)
 
     vertex(zero.x, zero.y, -ext, 0, 0)
-    vertex(zero.x, zero.y + height/4, -ext, 0, img.width)
+    vertex(zero.x, zero.y + height/4, -ext, 3000, 1000)
     vertex(zero.x + width/4, zero.y + height/4, -ext, 0, 0)
     vertex(zero.x + width/4, zero.y + height/2, -ext, 0, 0)
 
